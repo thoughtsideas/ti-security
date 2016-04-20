@@ -1,0 +1,29 @@
+{
+	"name": "thoughtsideas/ti-security",
+	"type": "wordpress-muplugin",
+	"license": "GPL-2.0+",
+	"description": "WordPress plugin to help improve core security.",
+	"homepage": "https://github.com/thoughtsideas/ti-security/",
+	"authors": [
+		{
+			"name": "Michael Bragg",
+			"email": "michael@michaelbragg.net",
+			"homepage": "http://www.thoughtsandideas.co.uk",
+			"role": "Developer"
+		}
+	],
+	"keywords": [
+		"wordpress"
+		"composer",
+		"wp",
+		"security"
+	],
+	"minimum-stability": "dev",
+	"require-dev": {},
+	"require": {},
+	"version": "0.1.0",
+	"dist": {
+		"url": "https://github.com/michaelbragg/ti-security/archive/master.zip",
+		"type": "zip"
+	}
+}
