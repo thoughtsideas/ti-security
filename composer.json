@@ -13,7 +13,7 @@
 		}
 	],
 	"keywords": [
-		"wordpress"
+		"wordpress",
 		"composer",
 		"wp",
 		"security"
@@ -21,9 +21,5 @@
 	"minimum-stability": "dev",
 	"require-dev": {},
 	"require": {},
-	"version": "0.1.0",
-	"dist": {
-		"url": "https://github.com/michaelbragg/ti-security/archive/master.zip",
-		"type": "zip"
-	}
+	"version": "0.1.0"
 }
