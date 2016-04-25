@@ -54,7 +54,7 @@ class TI_Security {
 	 * @uses remove_menu
 	 */
 	protected function ti_disable_login_hints() {
-		return '';
+		return __( 'Please double check your username, email or password.', 'ti-security' );
 	}
 
 	/**
