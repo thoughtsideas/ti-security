@@ -5,7 +5,7 @@
  * Description: Improve WordPress security
  * Author: Michael Bragg
  * Author URI: http://www.thoughtsandideas.co.uk
- * Version: 0.1.0
+ * Version: 1.0.2
 */
 
 
@@ -53,7 +53,7 @@ class TI_Security {
 	 * @since 0.1.0
 	 * @uses remove_menu
 	 */
-	protected function ti_disable_login_hints() {
+	public function ti_disable_login_hints() {
 		return __( 'Please double check your username, email or password.', 'ti-security' );
 	}
 
@@ -61,7 +61,7 @@ class TI_Security {
 	* Remove version generator
 	* @since 0.1.0
 	*/
-	protected function ti_remove_version_generator() {
+	public function ti_remove_version_generator() {
 		return false;
 	}
 
