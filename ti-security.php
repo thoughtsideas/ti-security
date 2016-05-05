@@ -23,7 +23,7 @@ class TI_Security {
 	 */
 	function __construct() {
 
-		add_action(
+		add_filter(
 			'login_errors',
 			array( $this, 'ti_disable_login_hints' )
 		);
