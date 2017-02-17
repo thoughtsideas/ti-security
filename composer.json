@@ -19,6 +19,21 @@
 		"security"
 	],
 	"minimum-stability": "dev",
-	"require-dev": {},
-	"require": {}
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/thoughtsideas/ti-wpcs.git"
+    }
+  ],
+	"require": {},
+	"require-dev": {
+		"thoughtsideas/ti-wpcs": "dev-master"
+	},
+  "scripts": {
+    "config-ti-wpcs": [
+      "\"vendor/bin/phpcs\" --config-set installed_paths ../../../vendor/wp-coding-standards/wpcs,../../../vendor/frenck/php-compatibility,../../../vendor/thoughtsideas/ti-wpcs"
+    ],
+    "post-install-cmd": "composer config-ti-wpcs",
+    "post-update-cmd": "composer config-ti-wpcs"
+  }
 }
