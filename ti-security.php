@@ -6,9 +6,13 @@
  * Author: Michael Bragg
  * Author URI: http://www.thoughtsandideas.co.uk
  * Version: 1.0.2
-*/
+ *
+ * @package ti-security
+ */
 
-
+/**
+ * TI_Security.
+ */
 class TI_Security {
 
 	/**
@@ -58,15 +62,19 @@ class TI_Security {
 	}
 
 	/**
-	* Remove version generator
-	* @since 0.1.0
-	*/
+	 * Remove version generator
+	 *
+	 * @since 0.1.0
+	 */
 	public function ti_remove_version_generator() {
 		return false;
 	}
 
 }
 
+/**
+ * Initialise plugin.
+ */
 function ti_security_init() {
 	TI_Security::get_instance();
 }
