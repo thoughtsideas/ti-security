@@ -5,7 +5,7 @@
  * Description: Improve WordPress security
  * Author: Michael Bragg
  * Author URI: http://www.thoughtsandideas.co.uk
- * Version: 1.0.2
+ * Version: 2.0.0
  *
  * @package ti-security
  */
