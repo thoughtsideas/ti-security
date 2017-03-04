@@ -1,24 +1,24 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3fb5d15b66effdf069ac483fabecee06",
+    "content-hash": "5946bc554beccf7529fb0334af965e71",
     "packages": [],
     "packages-dev": [
         {
             "name": "frenck/php-compatibility",
-            "version": "7.1.1",
+            "version": "7.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/frenck/PHPCompatibility.git",
-                "reference": "6329d2c90540eee6a21100a918900762f702f580"
+                "reference": "36db297737424e596ad0afb692a8bcac1eb5b363"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/frenck/PHPCompatibility/zipball/6329d2c90540eee6a21100a918900762f702f580",
-                "reference": "6329d2c90540eee6a21100a918900762f702f580",
+                "url": "https://api.github.com/repos/frenck/PHPCompatibility/zipball/36db297737424e596ad0afb692a8bcac1eb5b363",
+                "reference": "36db297737424e596ad0afb692a8bcac1eb5b363",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-12-14 01:00:04"
+            "time": "2017-02-24T14:15:43+00:00"
         },
         {
             "name": "pdepend/pdepend",
@@ -92,7 +92,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Official version of pdepend to be handled with Composer",
-            "time": "2017-01-19 14:23:36"
+            "time": "2017-01-19T14:23:36+00:00"
         },
         {
             "name": "phpmd/phpmd",
@@ -158,7 +158,7 @@
                 "phpmd",
                 "pmd"
             ],
-            "time": "2017-01-20 14:41:10"
+            "time": "2017-01-20T14:41:10+00:00"
         },
         {
             "name": "psr/container",
@@ -211,16 +211,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.8.0",
+            "version": "2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "86dd55a522238211f9f3631e3361703578941d9a"
+                "reference": "d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/86dd55a522238211f9f3631e3361703578941d9a",
-                "reference": "86dd55a522238211f9f3631e3361703578941d9a",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d",
+                "reference": "d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d",
                 "shasum": ""
             },
             "require": {
@@ -285,7 +285,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-02-02 03:30:00"
+            "time": "2017-03-01T22:17:45+00:00"
         },
         {
             "name": "symfony/config",
@@ -293,19 +293,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "f0adc7e9b7191545727f15ccbaa5f381ccce2cad"
+                "reference": "43a6a41fc7baf5f65861c92353216a85fedfa251"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/f0adc7e9b7191545727f15ccbaa5f381ccce2cad",
-                "reference": "f0adc7e9b7191545727f15ccbaa5f381ccce2cad",
+                "url": "https://api.github.com/repos/symfony/config/zipball/43a6a41fc7baf5f65861c92353216a85fedfa251",
+                "reference": "43a6a41fc7baf5f65861c92353216a85fedfa251",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.9",
                 "symfony/filesystem": "~2.8|~3.0"
             },
+            "conflict": {
+                "symfony/dependency-injection": "<3.3"
+            },
             "require-dev": {
+                "symfony/dependency-injection": "~3.3",
                 "symfony/yaml": "~3.0"
             },
             "suggest": {
@@ -341,7 +345,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-14 16:35:24"
+            "time": "2017-03-02T19:13:25+00:00"
         },
         {
             "name": "symfony/dependency-injection",
@@ -349,12 +353,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "1f314db105720ed28ab0adde618becd45058c181"
+                "reference": "e707fbb95b587009b748c333494835ad9985db32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/1f314db105720ed28ab0adde618becd45058c181",
-                "reference": "1f314db105720ed28ab0adde618becd45058c181",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/e707fbb95b587009b748c333494835ad9985db32",
+                "reference": "e707fbb95b587009b748c333494835ad9985db32",
                 "shasum": ""
             },
             "require": {
@@ -411,7 +415,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-17 06:19:49"
+            "time": "2017-03-01T21:48:20+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -419,12 +423,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "b2de62936fea037d501159f52b7b6172cc962282"
+                "reference": "5755830b51f2c2f4d9e0b5957b26436f3b507dce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/b2de62936fea037d501159f52b7b6172cc962282",
-                "reference": "b2de62936fea037d501159f52b7b6172cc962282",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/5755830b51f2c2f4d9e0b5957b26436f3b507dce",
+                "reference": "5755830b51f2c2f4d9e0b5957b26436f3b507dce",
                 "shasum": ""
             },
             "require": {
@@ -460,7 +464,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-08 21:15:04"
+            "time": "2017-02-18T17:35:19+00:00"
         },
         {
             "name": "thoughtsideas/ti-wpcs",
@@ -547,14 +551,12 @@
                 "standards",
                 "wordpress"
             ],
-            "time": "2016-08-29 20:04:47"
+            "time": "2016-08-29T20:04:47+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "thoughtsideas/ti-wpcs": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
