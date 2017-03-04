@@ -4,7 +4,7 @@ Donate link: http://www.thoughtsandideas.co.uk
 Tags: security
 Requires at least: 4.5.0
 Tested up to: 4.7.2
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,6 +19,9 @@ WordPress plugin to help improve core security.
 == Screenshots ==
 
 == Changelog ==
+
+= 2.0.1 =
+* Update composer to load dependencies from Packagist.
 
 = 2.0.0 =
 * Update login errors to use a filter.
