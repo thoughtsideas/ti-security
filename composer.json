@@ -19,15 +19,10 @@
 		"security"
 	],
 	"minimum-stability": "dev",
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/thoughtsideas/ti-wpcs.git"
-    }
-  ],
+  "repositories": [],
 	"require": {},
 	"require-dev": {
-		"thoughtsideas/ti-wpcs": "dev-master"
+		"thoughtsideas/ti-wpcs": "*"
 	},
   "scripts": {
     "config-ti-wpcs": [
