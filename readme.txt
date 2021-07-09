@@ -10,6 +10,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
+⚠️ Archived: 2021-07-09 ⚠️
+
 WordPress plugin to help improve core security.
 
 == Installation ==
